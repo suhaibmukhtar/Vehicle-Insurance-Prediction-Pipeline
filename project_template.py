@@ -34,17 +34,14 @@ list_of_files = [
     f"{Main_Package_path}/pipeline/prediction_pipeline.py",
     f"{Main_Package_path}/utils/__init__.py",
     f"{Main_Package_path}/utils/main_utils.py",
-    f"{Main_Package_path}/Dockerfile",
-    f"{Main_Package_path}/.dockerignore",
-    f"{Main_Package_path}/README.md",
-    f"{Main_Package_path}/requirements.txt",
-    f"{Main_Package_path}/exception.py",
-    f"{Main_Package_path}/logger.py",
-    f"{Main_Package_path}/setup.py",
-    f"{Main_Package_path}/pyproject.toml",
+    "Dockerfile",
+    ".dockerignore",
+    ".gitignore",
+    "requirements.txt",
+    "setup.py",
+    "pyproject.toml",
     "config/model.yaml",
     "config/schema.yaml",
-    "README.md",
     "Project_flow.md"
 ]
 for file_path in list_of_files:

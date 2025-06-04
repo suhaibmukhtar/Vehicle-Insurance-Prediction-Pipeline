@@ -38,5 +38,5 @@ git remote -v
 ## Step to follow after SSH
 <ol>
     <li>Create the Project template by executing 'template.py' file.</li>
-    <li></li>
+    <li>Write code on 'setup.py' and project.toml to import local packages</li>
 </ol>
