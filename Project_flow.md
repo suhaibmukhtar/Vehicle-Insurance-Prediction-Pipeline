@@ -36,7 +36,45 @@ git remote set-url origin git@github.com:username/repo-name.git
 git remote -v
 ```
 ## Step to follow after SSH
-<ol>
-    <li>Create the Project template by executing 'template.py' file.</li>
-    <li>Write code on 'setup.py' and project.toml to import local packages</li>
-</ol>
+### Project Setup Steps After SSH
+1. **Create the project template**
+   - Run the following command to generate the folder structure and initial files:
+     ```cmd
+     python template.py
+     ```
+
+2. **Configure packaging files**
+   - Edit `setup.py` and `pyproject.toml` to ensure your local packages are importable and dependencies are managed properly.
+
+3. **Create and activate a virtual environment**
+   - Using Conda (recommended):
+     ```cmd
+     conda create -n vehicle python=3.10 -y
+     conda activate vehicle
+     ```
+   - Or using venv (standard Python):
+     ```cmd
+     python -m venv venv
+     venv\Scripts\activate
+     ```
+
+4. **Install dependencies**
+   - Add any required modules to `requirements.txt`.
+   - Then install all dependencies:
+     ```cmd
+     pip install -r requirements.txt
+     ```
+
+5. **Verify installation**
+   - Check that your package and dependencies are installed:
+     ```cmd
+     pip list
+     ```
+     or 
+     ```cmd
+     conda env list
+     ```
+
+
+
+

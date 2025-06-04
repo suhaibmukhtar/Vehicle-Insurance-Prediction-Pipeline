@@ -1,0 +1,18 @@
+[project]
+name = "EndToEndVehicleInsuranceProject"
+version = "0.0.1"
+description = "End-to-end machine learning project for predicting vehicle insurance claims. This repository features a robust training pipeline, automated logging, continuous integration and deployment (CI/CD) on AWS, and deployment of a FastAPI-based web service for real-time inference. The project emphasizes modularity, scalability, and production-readiness."
+authors = [{name = "Suhaib Mukhtar", email = "suhaibmukhtar2@gmail.com"}]
+readme = "README.md"
+requires-python = ">=3.7"
+
+[project.urls]
+Homepage = "https://github.com/suhaibmukhtar/Vehicle-Insurance-Prediction-Pipeline.git"
+
+[tool.setuptools]
+packages = {find = {}}
+
+[tool.setuptools.dynamic]
+dependencies = {file = "requirements.txt"}
+
+
